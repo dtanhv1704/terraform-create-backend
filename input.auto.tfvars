@@ -1,7 +1,8 @@
-profile = "labacc-ngloc"
-tf_backend = "terraform-backend-lab01"
+region     = "ap-southeast-1"
+profile    = "demo"
+tf_backend = "tf-backend-demo"
 
 default_tags = {
-  Owner = "tadi1"
-  Environment  = "terraform-backend-lab01"
-  }
+  Owner       = "demo"
+  Environment = "demo"
+}

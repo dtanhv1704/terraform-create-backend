@@ -1,19 +1,20 @@
 variable "profile" {
+  type = string
   default = "default"
 }
 
 variable "region" {
-  default = "ap-southeast-1"
+  type = string
 }
 
 variable "tf_backend" {
-  default = "tflab-backend"
+  type = string
 }
 
 variable "default_tags" {
   type = map(string)
   default = {
-		Owner	=	"anh.dinhtuan1"
-		Environment	=	"tf-demo"
+		Project	=	"demo"
+		Environment	=	"demo"
   }
 }
